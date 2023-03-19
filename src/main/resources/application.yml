@@ -1,0 +1,29 @@
+#server:
+#  port: 8085
+#  servlet:
+#    context-path: /${app.context.domain}/api/v1 #/testGet
+#
+#spring:
+#  application:
+#    name: TestDockerService
+#
+#user2:
+#  detail:
+#    name: aekkkk
+#
+##config use in core-common-framework
+#app:
+#  context:
+#    domain: TestDockerService
+#  config:
+#    messageBasenames: classpath:messages
+#    messages:
+#      cacheMillis: 500
+#  swagger:
+#    enable: true
+#    title: Test-Spring-docker-maven service
+#    basepackage: com.aek.testDocker
+#    desc: API for TEST swagger-ui
+#    version: v1.0.0
+#  statusCode:
+#    generalServiceFail: E001
